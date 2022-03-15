@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+
+body{
+
+    box-sizing: border-box;
+    
+}
 header {
     position: absolute;
 width: 100%;
@@ -173,6 +179,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 margin-bottom: 100px;
+padding-bottom: 130px;
     
 }
 .top5{
@@ -183,4 +190,12 @@ padding-bottom: 100px;
 ;
 
 
+}
+
+.compra {
+    color: white;
+}
+
+.cardapio {
+    padding-left: 20px;
 }
