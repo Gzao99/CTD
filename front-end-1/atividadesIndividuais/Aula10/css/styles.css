@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.faixa1 {
+  height: 38px;
+  width: 100%;
+  background-color: #1cd1b0;
+  color: #000000;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.faixa2 {
+  height: 101px;
+  width: 100%;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  padding-top: 30px;
+  padding-left: 5px;
+}
+
+section {
+  height: 1500px;
+  display: flex;
+  padding-top: 250px;
+  justify-content:space-around
+}
+
+.cardBatman {
+  flex-direction: column;
+ 
+  height: 600;
+  
+}
+
+.batman-cima {
+  background-image: url(../img/fundoBatman.png.png);
+  background-repeat: no-repeat;
+  height: 217.81px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.coracao1 {
+}
+
+.foto-batman {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 65px;
+  margin-top: 105px;
+}
+
+.batman-baixo {
+  height: 300px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 374px;
+}
+
+.title-batman {
+  margin-left: 147px;
+  margin-top: 80px;
+}
+
+.texto-batman {
+  padding-left: 50px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.botao-batman {
+  margin-left: 110px;
+  margin-top: 30px;
+  width: 145.34px;
+  height: 54.76px;
+  background: #00669f;
+  color: white;
+}
+
+
+
+
+
+
+
+
+footer {
+  padding-top: 15px;
+  padding-left: 10px;
+  color: white;
+  height: 51px;
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+comeca o card da arlequina
+
+
+
+
+
+
+
+.cardHarley {
+  flex-direction: column;
+  padding-left: 500px;
+  height: 600;
+
+}
+
+.harley-cima {
+  background-image: url(../img/fundoHarley.png.png);
+  background-repeat: no-repeat;
+  height: 217.81px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.coracao2 {
+}
+
+.foto-harley {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 65px;
+  margin-top: 105px;
+}
+
+.harley-baixo {
+  height: 300px;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 374px;
+
+
+}
+
+
+.title-harley{
+margin-left: 147px;
+margin-top: 80px;
+}
+
+
+.texto-harley {
+   padding-left: 50px;
+    width: 350px;
+    margin-top: 50px;
+}
+
+.botao-harley {
+margin-left: 110px;
+margin-top: 30px;
+width: 145.34px;
+height: 54.76px;
+background: #00669F;
+color: white;
+}
